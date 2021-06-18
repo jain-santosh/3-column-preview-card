@@ -1,0 +1,143 @@
+/* 
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+Bright orange: hsl(31, 77%, 52%)
+Dark cyan: hsl(184, 100%, 22%)
+Very dark cyan: hsl(179, 100%, 13%)
+
+### Neutral
+
+Transparent white (paragraphs): hsla(0, 0%, 100%, 0.75)
+Very light gray (background, headings, buttons): hsl(0, 0%, 95%)
+
+## Typography
+
+### Body Copy
+
+- Font size: 15px
+
+### Font
+
+- Family: [Lexend Deca](https://fonts.google.com/specimen/Lexend+Deca)
+- Weights: 400
+
+- Family: [Big Shoulders Display](https://fonts.google.com/specimen/Big+Shoulders+Display)
+- Weights: 700
+*/
+
+.sedan {
+    background-color: hsl(31, 77%, 52%);
+    font-family: "Big Shoulders Display", cursive;
+}
+
+.suv{
+    background-color: hsl(184, 100%, 22%);
+    font-family: "Big Shoulders Display", cursive;
+}
+
+.luxury{
+    background-color: hsl(179, 100%, 13%);
+    font-family: "Big Shoulders Display", cursive;
+}
+
+.sedan p{
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.suv p{
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 15px;
+}
+
+.luxury p{
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 15px;
+}
+
+.button {
+    border-radius: 25px;
+}
+.sedan a{
+    color:hsl(31, 77%, 52%);
+}
+
+.sedan a:hover{
+    background-color: hsl(31, 77%, 52%);
+    color: #fff;
+}
+
+.suv a {
+    color:hsl(184, 100%, 22%);
+}
+
+.suv a:hover{
+    background-color: hsl(184, 100%, 22%);
+    color: #fff;
+}
+
+.luxury a {
+    color:hsl(179, 100%, 13%);
+}
+
+.luxury a:hover{
+    background-color: hsl(179, 100%, 13%);
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
